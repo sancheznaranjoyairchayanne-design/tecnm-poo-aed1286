@@ -71,8 +71,14 @@ El **Constructor** es un bloque de código especial que se ejecuta única y excl
 
 ---
 ### 5. Preguntas de Autoevaluación
-¿Cuál es la diferencia exacta entre una Clase y un Objeto?
+-¿Cuál es la diferencia exacta entre una Clase y un Objeto?
+👉R=Una clase es la definición, el molde o plano que describe cómo deben ser los objetos (atributos y métodos).
 
-Si un objeto permite que su saldo sea negativo por descuido del programador, ¿qué principio de POO se violó?
+Un objeto es la instancia concreta creada a partir de esa clase, con valores reales en sus atributos.
+👉Ejemplo de demostracion =: Clase Persona define que tiene nombre y edad; Objeto Juan es una persona con nombre "Juan" y edad 25.
 
-¿Por qué un constructor debe rechazar valores erróneos en lugar de guardar un valor por defecto sin avisar?
+-Si un objeto permite que su saldo sea negativo por descuido del programador, ¿qué principio de POO se violó?
+👉R=Si un objeto permite que su saldo sea negativo por descuido del programador, se está violando el principio de encapsulamiento el encapsulamiento protege los datos internos y asegura que solo se modifiquen mediante reglas seguras, evitando estados inválidos.
+
+-¿Por qué un constructor debe rechazar valores erróneos en lugar de guardar un valor por defecto sin avisar?
+👉R=Un constructor debe rechazar valores erróneos (como edad negativa o nombre vacío) porque su función es garantizar que el objeto “nazca” en un estado válido al guardar un valor por defecto sin avisar puede generar inconsistencias y errores difíciles de detectar más adelante.

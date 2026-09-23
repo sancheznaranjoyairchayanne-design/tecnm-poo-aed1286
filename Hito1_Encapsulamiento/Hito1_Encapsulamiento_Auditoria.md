@@ -8,7 +8,7 @@
 
 ### 2. Delegación de Constructores con : this(...)
 *Explica el beneficio de reutilizar constructores encadenados en lugar de copiar código de inicialización:*
--R= Personalmente, lo veo yo como un ejemplo de pensar en el futuro ya que reutilizar constructores encadenados es una práctica que refleja madurez en el diseño orientado a objetos. En lugar de repetir la misma lógica en varios constructores, se centraliza en uno solo y los demás delegan hacia él, Y tomando en cuenta lo anteriormente dicho aquí mismo a que hoy puede parecer un detalle menor, pero cuando el proyecto crece y se añaden nuevas reglas, esa delegación evita errores y simplifica la vida y el trabajo del programador.
+- R= Personalmente, lo veo yo como un ejemplo de pensar en el futuro ya que reutilizar constructores encadenados es una práctica que refleja madurez en el diseño orientado a objetos. En lugar de repetir la misma lógica en varios constructores, se centraliza en uno solo y los demás delegan hacia él, Y tomando en cuenta lo anteriormente dicho aquí mismo a que hoy puede parecer un detalle menor, pero cuando el proyecto crece y se añaden nuevas reglas, esa delegación evita errores y simplifica la vida y el trabajo del programador.
 
 ### 3. Evidencia de Ejecución
 Pega la salida completa de dotnet run con las 4 pruebas en verde.

@@ -94,7 +94,11 @@ Diferencia crucial: Clase Abstracta vs. Interfaz
 
 ## 6. Preguntas de Autoevaluación
 1. Si una clase abstracta no se puede instanciar con new, ¿para qué sirve programarla?
+-  R= Su utilidad está en que me permite definir un marco común. Es como un plano arquitectónico: no vivo en el plano, pero gracias a él puedo construir casas distintas con una base coherente. Así, las subclases heredan atributos y métodos que les dan consistencia, y al mismo tiempo se ven obligadas a implementar lo que la clase abstracta dejó pendiente.
 
-2. ¿Por qué es una mala práctica abusar de condicionales if (tipo == "Circulo") en lugar de usar polimorfismo?
+3. ¿Por qué es una mala práctica abusar de condicionales if (tipo == "Circulo") en lugar de usar polimorfismo?
+- R= Ya que cuando el código está lleno de condicionales como if (tipo == "Círculo") como lo entiendo, se vuelve rígido y difícil de mantener. Cada vez que agrego una nueva figura, debo modificar esos condicionales, lo que rompe el principio de que el software debe estar abierto a extenderse pero cerrado a cambios innecesarios, Y también Tomando en Cuenta el polimorfismo su Funcion evita esa fragilidad; cada clase sabe cómo comportarse y el programa simplemente confía en que el método correcto se ejecutará. Para mí ya para acabar este apartado (Punto 3), esto es como delegar responsabilidades en lugar de que un único bloque de código decida todo, cada objeto se hace cargo de sí mismo.
 
-3. Da un ejemplo real donde dos objetos de familias totalmente distintas compartan la misma interfaz.
+5. Da un ejemplo real donde dos objetos de familias totalmente distintas compartan la misma interfaz.
+- R = Un ejemplo que me gustaría poner aquí en este apartado es la interfaz IImprimible. Como una Factura y una Fotografía son objetos de mundos totalmente distintos, uno pertenece al ámbito contable y otro al artístico. Sin embargo, ambos pueden implementar la misma interfaz porque comparten la capacidad de ser impresos.
+Esto demuestra que las interfaces son puentes entre realidades distintas, y que lo importante no es la naturaleza del objeto, sino la acción que pueden llegar a realizar.

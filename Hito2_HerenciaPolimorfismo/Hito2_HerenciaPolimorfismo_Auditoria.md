@@ -13,4 +13,6 @@ Por otro lado, una interfaz como IDibujable no busca compartir atributos ni lóg
 Esto me parece poderoso porque refleja cómo en la vida real tratamos a los objetos por lo que son, sin necesidad de preguntar constantemente “¿qué tipo eres?”. El código se vuelve más limpio y extensible, y cada clase se responsabiliza de su propio comportamiento.
 
 ### 3. Evidencia de Ejecución
+<img width="994" height="155" alt="image" src="https://github.com/user-attachments/assets/c0ffc6f3-3229-457d-b9fb-3977da6f5c21" />
+
 Pega la salida completa de dotnet run con las 4 pruebas en verde.

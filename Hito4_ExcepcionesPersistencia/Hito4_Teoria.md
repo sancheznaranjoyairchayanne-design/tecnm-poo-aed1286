@@ -61,5 +61,10 @@ Por esta razón, toda operación de entrada/salida (I/O) debe estar envuelta en 
 
 ## 5. Preguntas de Autoevaluación
 1. ¿Por qué es una mala práctica lanzar 'throw new Exception()' en lugar de crear una excepción específica como ProductoNoEncontradoException?
-2. ¿Cuál es la diferencia conceptual entre Serialización y Deserialización?
-3. ¿Por qué los datos que residen solo en memoria RAM no son suficientes para un sistema de información real?
+- R = Bueno en mi respuesta las Rozones Varian ya sea cuando el diseño o se mantiene código, prefiero lanzar excepciones que expresen claramente la causa del fallo. y ademas ¿Por qué evitar throw new Exception() y optar por excepciones específicas como ProductoNoEncontradoException? Porque las excepciones concretas comunican intención, facilitan el manejo correcto y mejoran la trazabilidad del sistema correspondiente.
+
+3. ¿Cuál es la diferencia conceptual entre Serialización y Deserialización?
+- R = En mi trabajo con persistencia y comunicación entre servicios, distingo siempre entre serializar y deserializar: uno transforma objetos para transporte o almacenamiento; el otro reconstruye esos objetos para su uso en memoria y así es una manera clara para poder diferenciarlos de otras tantas que hay que llegan a hacer mas complejas.
+
+5. ¿Por qué los datos que residen solo en memoria RAM no son suficientes para un sistema de información real?
+- R = En los sistemas que deben ser fiables y útiles a largo plazo, no confío únicamente en la memoria volátil. La RAM es adecuada para estado temporal, pero no garantiza durabilidad ni consistencia frente a fallos o escalado y si tambien tomamos en cuenta los puntos claves de cada uno de ellos que son los siguientes Volatilidad,Recuperación ante fallos,Consistencia y transacciones,Escalabilidad y compartición,Auditoría y análisis correspondientemente.

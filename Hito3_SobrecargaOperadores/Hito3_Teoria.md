@@ -62,5 +62,11 @@ Esto permite que la encapsulación proteja la memoria interna mientras expone un
 
 ## 4. Preguntas de Autoevaluación
 1. ¿Por qué el operador C = A + B debe devolver una nueva instancia en lugar de alterar los datos de A?
-2. Si intentas sumar dos matrices de dimensiones incompatibles, ¿qué debe suceder conceptualmente?
-3. ¿Cuál es la ventaja de legibilidad al usar indexadores en lugar de métodos Get/Set convencionales?
+- R = Porque devolver una nueva instancia preserva la inmutabilidad de los operandos, evitando efectos secundarios inesperados y facilitando el razonamiento sobre el programa con compatibilidad con patrones funcionales y con concurrencia y Seguridad del estado.
+  
+3. Si intentas sumar dos matrices de dimensiones incompatibles, ¿qué debe suceder conceptualmente?
+- R = En estos casos conceptualmente debe detenerse la operación y reportarse un error controlado (por ejemplo, lanzar una excepción) que indique la incompatibilidad de dimensiones con una validación previa para tener un "Principio de Defensa" antes de que llegue o se marque el fallo explícito del programa de dos matrices de dimensiones incompatibles.
+  
+4. ¿Cuál es la ventaja de legibilidad al usar indexadores en lugar de métodos Get/Set convencionales?
+- R = La ventaja que los indexadores ofrecen es una sintaxis más natural y concisa para acceder a elementos, lo que mejora la legibilidad y hace el código más cercano al lenguaje matemático o a la notación de arreglos con sintaxis clara y menos ruido semántico en estado de encapsulación mantenida.
+

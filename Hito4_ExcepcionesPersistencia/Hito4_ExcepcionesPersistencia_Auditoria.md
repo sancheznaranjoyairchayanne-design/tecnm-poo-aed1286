@@ -12,3 +12,7 @@
 
 ### 3. Evidencia de Ejecución
 Pega la salida completa de dotnet run con las 4 pruebas en verde.
+<img width="937" height="162" alt="image" src="https://github.com/user-attachments/assets/5e65bf1f-1803-4a9f-b748-7383e8035a4b" />
+<img width="1062" height="197" alt="image" src="https://github.com/user-attachments/assets/9948daeb-9869-4451-9616-0663c626211a" />
+<img width="442" height="41" alt="image" src="https://github.com/user-attachments/assets/eb8f6e83-7a17-4dcd-b1b2-fcd91f0650ea" />
+

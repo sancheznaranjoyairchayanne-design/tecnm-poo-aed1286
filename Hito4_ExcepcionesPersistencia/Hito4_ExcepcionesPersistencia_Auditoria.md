@@ -1,6 +1,6 @@
 # Bitácora de Auditoría — Hito 4: Excepciones y Persistencia
 **Estudiante: O. Yahir Santoyo Sanchez
-**Número de Control: 23531082
+**Número de Control: 23531082 
 
 ### 1. Jerarquía de Excepciones Propias
 *¿Por qué es preferible crear excepciones de dominio en lugar de lanzar System.Exception genérico?*
